@@ -1,3 +1,8 @@
+
+* {
+
+ font-family: url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+}
 .App {
   text-align: center;
 }
@@ -11,6 +16,17 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+p{
+  padding: 0;
+}
+
+.pokemonImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: whitesmoke;
 }
 
 .App-header {
